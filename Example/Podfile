@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SKPhotoBrowser_ObjC_Tests' do
+  pod 'SKPhotoBrowser_ObjC', :path => '../'
+  
+  
+end
