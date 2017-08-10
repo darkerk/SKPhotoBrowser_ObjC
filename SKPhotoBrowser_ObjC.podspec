@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/darkerk/SKPhotoBrowser_ObjC.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SKPhotoBrowser_ObjC/Classes/*.{h,m}'
-  s.resource     = 'SKPhotoBrowser_ObjC/Assets/SKPhotoBrowser.bundle'
+  s.source_files = 'SKPhotoBrowser_ObjC/*.{h,m}'
+  s.resource     = 'SKPhotoBrowser_ObjC/SKPhotoBrowser.bundle'
 
-  s.public_header_files = 'SKPhotoBrowser_ObjC/Classes/*.h'
+  s.public_header_files = 'SKPhotoBrowser_ObjC/*.h'
   s.frameworks = 'UIKit'
 end
