@@ -11,7 +11,7 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata/
+xcuserdata
 *.xccheckout
 profile
 *.moved-aside
@@ -31,3 +31,4 @@ Carthage
 # `pod install` in .travis.yml
 #
 # Pods/
+
