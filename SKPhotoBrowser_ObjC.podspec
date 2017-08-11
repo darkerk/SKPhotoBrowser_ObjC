@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKPhotoBrowser_ObjC'
-  s.version          = '1.0.0'
+  s.version          = '4.0.1'
   s.summary          = 'SKPhotoBrowser written by Objective-c.'
   s.homepage         = 'https://github.com/darkerk/SKPhotoBrowser_ObjC'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'darkerk' => 'appwgh@gmail.com' }
-  s.source           = { :git => 'https://github.com/darkerk/SKPhotoBrowser_ObjC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/darkerk/SKPhotoBrowser_ObjC.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SKPhotoBrowser_ObjC/*.{h,m}'
